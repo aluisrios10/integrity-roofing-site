@@ -31,19 +31,19 @@ const services = [
 
 const reviews = [
   {
-    name: "Sarah M.",
+    name: "Ofelia Ochoa.",
     stars: 5,
-    text: "Noe and his crew did an outstanding job replacing our roof. Quick, clean, and professional. Highly recommend!",
+    text: "Mid Columbia Integrity Roofing is very professional company and reliable. Here are some pictures of their work!",
   },
   {
-    name: "Tom R.",
+    name: "J.K.",
     stars: 5,
-    text: "Called Dan for a repair estimate and he was out the next morning. Honest pricing, great work. Will use again.",
+    text: "We had Mid-Columbia Integrity Roofing come out to complete a partway completed homeowner DIY replacement skylight installation after we found it was a little more work than we had time to finish. They were professional and understanding, and the work they did was high quality. We are very happy with the quality of the finish of the work and with how responsive the team was in getting our job completed. With winter just around the corner, we wanted to get this project finished and finished well. Mid-Columbia Integrity Roofing delivered. Definitely would recommend.",
   },
   {
-    name: "Linda K.",
+    name: "Paul McCullugh.",
     stars: 5,
-    text: "They completed our commercial roof on time and under budget. Integrity is the right word for this company.",
+    text: "Outstanding roofing contractor, showed up on time, cleaned up perfectly and the new roof looks great. Price was the best of 3 bids, zero problems. Family business, great people!",
   },
 ];
 
@@ -192,7 +192,7 @@ export default function Index() {
                   "Free, no-obligation estimates",
                   "High-quality materials with manufacturer warranties",
                   "Clean job sites — we respect your property",
-                  "Serving Washington and Idaho",
+                  "Serving Washington",
                   "Veteran-owned, community-focused",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
@@ -217,7 +217,7 @@ export default function Index() {
                 { value: "500+", label: "Roofs Installed", color: "bg-accent" },
                 { value: "5★", label: "Average Rating", color: "bg-brand-blue-pale" },
                 { value: "100%", label: "Free Estimates", color: "bg-brand-blue-pale" },
-                { value: "WA & ID", label: "Service Areas", color: "bg-accent" },
+                { value: "WA", label: "Service Areas", color: "bg-accent" },
               ].map(({ value, label, color }) => (
                 <div key={label} className={`${color} rounded-2xl p-6 text-center`}>
                   <p className="text-3xl sm:text-4xl font-extrabold text-foreground mb-1">{value}</p>

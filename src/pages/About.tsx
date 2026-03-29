@@ -47,7 +47,7 @@ export default function About() {
                 We're proud of the relationships we've built in our community, and we're proud of the roofs we've put over families' and businesses' heads.
               </p>
               <ul className="space-y-3">
-                {["Fully licensed & insured", "Serving WA & ID", "Residential & Commercial", "Free written estimates", "Quality materials & workmanship"].map((item) => (
+                {["Fully licensed & insured", "Serving WA", "Residential & Commercial", "Free written estimates", "Quality materials & workmanship"].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span className="text-foreground">{item}</span>
@@ -60,7 +60,7 @@ export default function About() {
               {[
                 { value: "500+", label: "Projects Completed", bg: "bg-accent" },
                 { value: "5.0", label: "Average Star Rating", bg: "bg-brand-blue-pale" },
-                { value: "WA & ID", label: "Service Area", bg: "bg-brand-blue-pale" },
+                { value: "WA", label: "Service Area", bg: "bg-brand-blue-pale" },
                 { value: "100%", label: "Free Estimates", bg: "bg-accent" },
               ].map(({ value, label, bg }) => (
                 <div key={label} className={`${bg} rounded-2xl p-6 text-center`}>
@@ -130,9 +130,9 @@ export default function About() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { name: "Jason T.", text: "Noe's team showed up on time, worked hard all day, and left the yard cleaner than they found it. Excellent experience.", stars: 5 },
-              { name: "Maria G.", text: "Dan was incredibly helpful through the whole process. The roof looks amazing and the price was very fair.", stars: 5 },
-              { name: "Rick H.", text: "We had an emergency leak on a commercial building. They responded same day and had it fixed by end of week. Impressive.", stars: 5 },
+              { name: "Paul McCullugh.", text: "Outstanding roofing contractor, showed up on time, cleaned up perfectly and the new roof looks great. Price was the best of 3 bids, zero problems. Family business, great people!", stars: 5 },
+              { name: "Jackie Stout.", text: "Positive Responsiveness, Punctuality, Quality, Professionalism, Value.", stars: 5 },
+              { name: "Master Tech Automotive.", text: "The crew at Mid Columbia are great. They did a really good job, with attention to detail, and cleaned up like madmen. Cant say enough about them. The work was excellent and they were very professional.", stars: 5 },
             ].map(({ name, text, stars }) => (
               <div key={name} className="service-card flex flex-col gap-4">
                 <div className="flex gap-1">
